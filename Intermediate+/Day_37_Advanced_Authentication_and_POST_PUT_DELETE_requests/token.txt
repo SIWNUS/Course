@@ -1,1 +1,0 @@
-pixela_params['token'] = "25R&pe)^6*(qvQ60fnlg"
