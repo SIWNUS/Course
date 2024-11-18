@@ -1,0 +1,4 @@
+# .gitignore
+*.pyc
+__pycache__/
+.env  # Ignore the .env file which will store sensitive credentials
