@@ -1,0 +1,11 @@
+Component 1: The paddle
+-> It can move up and down.
+
+Component 2: The pong ball
+-> It can move in x(45 degrees)
+
+Component 3: The scoreboard
+-> IT can update the score when the ball passes the screen on right and left acoordingly.
+
+Component 4: The mid section
+-> It seperates the screen into two fields and incorporates other components to complete the game.

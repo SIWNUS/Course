@@ -1,0 +1,26 @@
+GTD203 is our coffee machine.
+
+Starting features of our coffee machine is that it has
+    -> 300ml water
+    -> 200ml milk
+    -> 100g coffee
+
+Feature 1: Make 3 hot flavours
+    The three flavours we use will be 
+        -> Espresso (Recipe : 50ml water, 18g coffee) [Price = $1.50]
+        -> Latte (Recipe: 200ml water, 24g coffee, 150ml milk) [Price = $2.50]
+        -> Cappuccino (Recipe: 250ml water, 24g coffee, 100ml milk) [Price = $3.00]
+
+Feature 2: Coin operated
+    There are four different types of coins with varying values.
+        -> Penny = $0.01
+        -> Nickel = $0.05
+        -> Dime = $0.10
+        -> Quarter = $0.25
+
+Program requirements:
+    1. Print report. (report on all the resources left in that instance)
+    2. Check resource sufficient?
+    3. Process coins
+    4. Check transaction successful?
+    5. Make coffee by deducting resources.
