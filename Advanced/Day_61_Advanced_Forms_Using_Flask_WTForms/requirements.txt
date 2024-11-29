@@ -1,0 +1,6 @@
+Bootstrap_Flask
+Flask
+WTForms
+Flask_WTF
+Werkzeug
+email-validator
