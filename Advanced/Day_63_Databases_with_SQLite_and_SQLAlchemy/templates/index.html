@@ -1,0 +1,23 @@
+{% from 'bootstrap5/form.html' import render_form %}
+
+{% block content %}
+    <h1>My Library</h1>
+    {% if data %}
+      <ol class="list-group list-group-numbered">
+        {% for books in data %}
+          <li class="list-group-item">
+            {{ books.name }} - {{ books.author }} - {{ books.rating }}  |  <a href="{{ url_for('update_books', id=books.id) }}">Update</a>  |  <form action="{{ url_for('delete_books', id=books.id) }}" method="post"><button type="submit" class="btn btn-link">Delete</button></form>
+          </li>
+          <br>
+        {% endfor %}
+      </ol>
+      
+    {% else %}
+      <p>Library is empty.</p>
+
+    {% endif %}
+    
+    <br><br><hr>
+    <a href="{{ url_for('add_books') }}">Add New Book</a>
+
+{% endblock content %}
